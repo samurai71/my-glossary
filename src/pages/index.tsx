@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="container mx-auto border-2 mt-2 mb-2 px-1 py-1">
+      <div className="container px-1 py-1 mx-auto mt-2 mb-2 border-2">
         <h1 className="pb-2 text-3xl font-bold text-center underline">
           Hello world!
         </h1>
@@ -26,7 +26,7 @@ export default function Home() {
           <details className="pb-2">
             <summary>AWS</summary>
             <p>
-              <span className="italic font-mono">Amazon Web Services</span>{" "}
+              <span className="font-mono italic">Amazon Web Services</span>{" "}
               <br />
               Reprehenderit irure nulla esse exercitation veniam laboris et
               labore aute est. In minim nisi esse aliqua eiusmod proident duis.
