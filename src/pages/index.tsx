@@ -13,12 +13,50 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="text-3xl font-bold underline pb-2 text-center">
-        Hello world!
-      </h1>
-      <div className="flex flex-row content-center">
-        <Link href="#">A-M</Link>
-        <Link href="#">N-Z</Link>
+      <div className="container mx-auto border-2 mt-2 mb-2 px-1 py-1">
+        <h1 className="pb-2 text-3xl font-bold text-center underline">
+          Hello world!
+        </h1>
+        <div className="flex flex-row content-center">
+          <Link href="#">A-M</Link>
+          <Link href="#">N-Z</Link>
+        </div>
+        <section className="mx-2">
+          <h2 className="font-serif text-lg font-bold text-blue-500">A</h2>
+          <details className="pb-2">
+            <summary>AWS</summary>
+            <p>
+              <span className="italic font-mono">Amazon Web Services</span>{" "}
+              <br />
+              Reprehenderit irure nulla esse exercitation veniam laboris et
+              labore aute est. In minim nisi esse aliqua eiusmod proident duis.
+              Laborum aliquip quis do Lorem officia commodo dolore incididunt
+              sunt.
+            </p>
+          </details>
+        </section>
+        <section className="mx-2">
+          <h2 className="font-serif text-lg font-bold text-blue-500">B</h2>
+        </section>
+        <section className="mx-2">
+          <h2 className="font-serif text-lg font-bold text-blue-500">C</h2>
+          <details className="pb-2">
+            <summary>CI/CD</summary>
+            <p></p>
+          </details>
+          <details className="pb-2">
+            <summary>CLI</summary>
+            <p>
+              <span className="italic">Command Line Interface</span>
+            </p>
+          </details>
+          <details className="pb-2">
+            <summary>CSS</summary>
+            <p>
+              <span className="italic">Cascading Style Sheet</span>
+            </p>
+          </details>
+        </section>
       </div>
     </>
   );
