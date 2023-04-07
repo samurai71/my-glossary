@@ -10,3 +10,7 @@ h5,
 h6 {
   @apply font-bold font-serif;
 }
+
+section h2 {
+  @apply text-lg text-blue-500;
+}

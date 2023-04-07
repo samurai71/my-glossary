@@ -14,15 +14,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container px-1 py-1 mx-auto mt-2 mb-2 border-2">
-        <h1 className="pb-2 text-3xl font-bold text-center underline">
-          Hello world!
-        </h1>
+        <h1 className="pb-2 text-3xl text-center underline">Hello world!</h1>
         <div className="flex flex-row content-center">
           <Link href="#">A-M</Link>
           <Link href="#">N-Z</Link>
         </div>
         <section className="mx-2">
-          <h2 className="font-serif text-lg font-bold text-blue-500">A</h2>
+          <h2>A</h2>
           <details className="pb-2">
             <summary>AWS</summary>
             <p>
@@ -36,10 +34,10 @@ export default function Home() {
           </details>
         </section>
         <section className="mx-2">
-          <h2 className="font-serif text-lg font-bold text-blue-500">B</h2>
+          <h2>B</h2>
         </section>
         <section className="mx-2">
-          <h2 className="font-serif text-lg font-bold text-blue-500">C</h2>
+          <h2>C</h2>
           <details className="pb-2">
             <summary>CI/CD</summary>
             <p></p>
