@@ -24,8 +24,7 @@ export default function Home() {
           <details className="pb-2">
             <summary>AWS</summary>
             <p>
-              <span className="font-mono italic">Amazon Web Services</span>{" "}
-              <br />
+              <span>Amazon Web Services</span> <br />
               Reprehenderit irure nulla esse exercitation veniam laboris et
               labore aute est. In minim nisi esse aliqua eiusmod proident duis.
               Laborum aliquip quis do Lorem officia commodo dolore incididunt
@@ -45,13 +44,13 @@ export default function Home() {
           <details className="pb-2">
             <summary>CLI</summary>
             <p>
-              <span className="italic">Command Line Interface</span>
+              <span>Command Line Interface</span>
             </p>
           </details>
           <details className="pb-2">
             <summary>CSS</summary>
             <p>
-              <span className="italic">Cascading Style Sheet</span>
+              <span>Cascading Style Sheet</span>
             </p>
           </details>
         </section>

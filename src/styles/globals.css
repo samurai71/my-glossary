@@ -14,3 +14,7 @@ h6 {
 section h2 {
   @apply text-lg text-blue-500;
 }
+
+span {
+  @apply font-mono italic;
+}
