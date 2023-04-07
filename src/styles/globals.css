@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: rgb(226 232 240);
+}
+
 h1,
 h2,
 h3,
@@ -12,9 +16,9 @@ h6 {
 }
 
 section h2 {
-  @apply text-lg text-blue-500;
+  @apply text-lg text-blue-800;
 }
 
 span {
-  @apply font-mono italic;
+  @apply font-mono italic text-blue-800;
 }

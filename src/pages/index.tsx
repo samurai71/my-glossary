@@ -13,47 +13,62 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="container px-1 py-1 mx-auto mt-2 mb-2 border-2">
-        <h1 className="pb-2 text-3xl text-center underline">Hello world!</h1>
-        <div className="flex flex-row content-center">
-          <Link href="#">A-M</Link>
-          <Link href="#">N-Z</Link>
-        </div>
-        <section className="mx-2">
-          <h2>A</h2>
-          <details className="pb-2">
-            <summary>AWS</summary>
-            <p>
-              <span>Amazon Web Services</span> <br />
-              Reprehenderit irure nulla esse exercitation veniam laboris et
-              labore aute est. In minim nisi esse aliqua eiusmod proident duis.
-              Laborum aliquip quis do Lorem officia commodo dolore incididunt
-              sunt.
-            </p>
-          </details>
-        </section>
-        <section className="mx-2">
-          <h2>B</h2>
-        </section>
-        <section className="mx-2">
-          <h2>C</h2>
-          <details className="pb-2">
-            <summary>CI/CD</summary>
-            <p></p>
-          </details>
-          <details className="pb-2">
-            <summary>CLI</summary>
-            <p>
-              <span>Command Line Interface</span>
-            </p>
-          </details>
-          <details className="pb-2">
-            <summary>CSS</summary>
-            <p>
-              <span>Cascading Style Sheet</span>
-            </p>
-          </details>
-        </section>
+      <div className="container px-1 py-1 mx-auto mt-2 mb-2 border-2 border-black rounded">
+        <header className="w-full py-2 bg-purple-900 rounded-lg text-slate-300">
+          <h1 className="pb-2 text-3xl text-center">
+            Welcome to my Glossary of Terms
+          </h1>
+          <p className="pb-2 text-center">
+            This glossary is for technology and web related terms. I hope you
+            enjoy this glossary.
+          </p>
+        </header>
+        {/* <nav>
+          <div className="flex flex-row content-center">
+            <Link href="#">A-M</Link>
+            <Link href="#">N-Z</Link>
+          </div>
+        </nav> */}
+        <main>
+          <section className="mx-2">
+            <h2>A</h2>
+            <details className="pb-2">
+              <summary>AWS</summary>
+              <p>
+                <span>Amazon Web Services</span> <br />
+                Reprehenderit irure nulla esse exercitation veniam laboris et
+                labore aute est. In minim nisi esse aliqua eiusmod proident
+                duis. Laborum aliquip quis do Lorem officia commodo dolore
+                incididunt sunt.
+              </p>
+            </details>
+          </section>
+          <section className="mx-2">
+            <h2>B</h2>
+          </section>
+          <section className="mx-2">
+            <h2>C</h2>
+            <details className="pb-2">
+              <summary>CI/CD</summary>
+              <p></p>
+            </details>
+            <details className="pb-2">
+              <summary>CLI</summary>
+              <p>
+                <span>Command Line Interface</span>
+              </p>
+            </details>
+            <details className="pb-2">
+              <summary>CSS</summary>
+              <p>
+                <span>Cascading Style Sheet</span>
+              </p>
+            </details>
+          </section>
+        </main>
+        <footer className="w-full py-2 bg-purple-900 rounded-lg l text-slate-300">
+          <p className="text-xs text-center">&copy; All Rights Reserved.</p>
+        </footer>
       </div>
     </>
   );
