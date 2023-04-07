@@ -66,7 +66,7 @@ export default function Home() {
             </details>
           </section>
         </main>
-        <footer className="w-full py-2 bg-purple-900 rounded-lg l text-slate-300">
+        <footer className="w-full py-2 bg-purple-900 rounded-lg text-slate-300">
           <p className="text-xs text-center">&copy; All Rights Reserved.</p>
         </footer>
       </div>
